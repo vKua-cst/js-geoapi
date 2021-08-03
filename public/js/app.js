@@ -1,6 +1,6 @@
 $(document).ready(function() {
     let cpInput = $("[data-api=cp]")
-    let villeInput = $("[data-api=ville")
+    let villeInput = $("[data-api=ville]")
     cpInput.on('keyup', function() {
     let cpValue = cpInput.val()
     if((cpValue.length == 2 || cpValue.length == 5) && (cpValue.length >= 2 && cpValue.length <= 5)) {
